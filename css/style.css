@@ -1,0 +1,43 @@
+.first-element{
+    width: 100vw !important;
+    height: 1.5vh !important;
+    background-color: black !important;
+}
+
+.hovcolor{
+    transition: 0.2s !important;
+}
+
+.hovcolor:hover{
+    color: green !important;
+}
+
+.dropdown-toggle:focus{
+    color: blue !important;
+}
+
+.navbar-nav{
+    position: relative !important;
+}
+
+.navbar-nav::after{
+    content: "" !important;
+    background-color: red !important;
+    position: absolute !important;
+    height: 95% !important;
+    width: 5px !important;
+    top: 5% !important;
+    right: -1% !important;
+}
+
+
+/* .navcontainer{
+    display: flex   !important;
+    justify-content: space-between !important;
+} */
+
+@media(max-width:575px){
+    .icons{
+        display: none;
+    }
+}
