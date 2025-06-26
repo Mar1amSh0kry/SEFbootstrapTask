@@ -30,12 +30,6 @@
     right: -1% !important;
 }
 
-
-.navcontainer{
-    display: flex   !important;
-    justify-content: space-between !important;
-}
-
 @media(max-width:575px){
     .icons{
         display: none;
@@ -51,3 +45,18 @@ div img:nth-child(2){
     width: 250px;
     height: 550px;
 }
+
+/**************************************************************/
+.cards-section .card{
+    margin-bottom: 20px !important;
+    padding: 10px !important;
+}
+
+@media (min-width:992px) {
+.cards-section div:nth-child(2),
+.cards-section div:nth-child(5){
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}    
+}
+
