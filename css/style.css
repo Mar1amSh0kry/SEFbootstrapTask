@@ -31,10 +31,10 @@
 }
 
 
-/* .navcontainer{
+.navcontainer{
     display: flex   !important;
     justify-content: space-between !important;
-} */
+}
 
 @media(max-width:575px){
     .icons{
