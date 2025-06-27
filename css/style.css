@@ -36,15 +36,7 @@
     }
 }
 
-div img:not(:nth-child(2)){
-    width: 350px;
-    height: 450px;
-}
 
-div img:nth-child(2){
-    width: 250px;
-    height: 550px;
-}
 
 /**************************************************************/
 .cards-section .card{
@@ -59,4 +51,24 @@ div img:nth-child(2){
     margin-right: 10px !important;
 }    
 }
+/************************************************************************************/
 
+.nav-tabs .nav-link:focus{
+    color: white !important;
+    background-color: green !important;
+}
+
+.tab-pane img{
+    width: 250px;
+    height: 200px;
+}
+
+.tab-content div:first-child img:last-child,
+.tab-content div:nth-child(2) img:first-child{
+    height: 300px;
+}
+
+div:first-child img:nth-child(2),
+.tab-content div:last-child img:nth-child(2){
+    height: 350px;
+}
